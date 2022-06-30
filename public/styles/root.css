@@ -1,3 +1,13 @@
+:root {
+  --bg-color: #F9F7FD;
+  --card-bg-color: #FFFFFF;
+  --title-color: #464646;
+  --subtitle-color: #A3A3A3;
+  --video-btn: #FFB050;
+  --border-button:#ECECEC;
+  --primary-color: #4894FF;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +15,17 @@
 }
 
 body {
-  
+  background-color: var(--bg-color);
+  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
 }
 
 button {
   cursor: pointer;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(title-color);
 }
 
 ol, ul {

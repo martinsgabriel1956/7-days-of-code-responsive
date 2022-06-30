@@ -1,0 +1,135 @@
+main {
+  padding-inline: 1rem;
+}
+
+header > nav {
+  padding: 2rem 7.5625rem 1.375rem 0;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+
+
+.doctor-details span{
+  font-weight: 700;
+  font-size: 1.375rem;
+  color: var(--title-color);
+  line-height: 2.2rem;
+}
+
+.doctor-details p{
+  color: var(--subtitle-color);
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.doctor-visits h4 {
+  margin-bottom: 8px;
+}  
+
+.doctor-visits .card-header,
+.doctor-visits .card-footer {
+  padding: 1rem;
+}
+
+.doctor-visits .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.doctor-visits .card {
+  background-color: var(--card-bg-color);
+  margin-bottom: 1rem;
+}
+
+.doctor-visits .card:last-child {
+  margin-bottom: 2rem;
+}
+
+.doctor-visits .info {
+  display: flex;
+  flex-direction: column;
+}
+
+.doctor-visits .info span:nth-child(1) {
+  font-weight: 700;
+  font-size: 0.875rem;
+  color: var(--title-color);
+  line-height: 1.4rem;
+}
+
+.doctor-visits .info span:nth-child(2) {
+  font-weight: 400;
+  font-size: 0.75rem;
+  color: var(--subtitle-color);
+  line-height: 1.4rem;
+
+  display: flex;
+  gap: 0.5rem;
+}
+
+.doctor-visits .user-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.doctor-visits .card-header .message-btn {
+  padding: 0.5831rem;
+  border-radius: 1rem;
+  border: 0;
+  display: flex;
+}
+
+.doctor-visits .bar {
+  position: absolute;
+  content: '';
+  background: var(--title-color);
+  width: 92%;
+  height: 1px;
+  opacity: .1;
+  margin-bottom: 1rem;
+}
+
+.doctor-visits .card-footer span {
+  font-size: 0.75rem;
+}
+
+.doctor-visits .card-footer .button-card-container {
+  margin-top: .5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.doctor-visits .card-footer .button-card-container button {
+  width: 100%;
+  font-size: 0.875rem;
+  line-height: 1.4rem;
+  font-weight: 500;
+  padding: 0.8125rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.doctor-visits .card-footer .button-card-container button.video{
+  background-color: var(--video-btn);
+  color: var(--card-bg-color);
+  border: 0;
+}
+
+.doctor-visits .card-footer .button-card-container button.audio {
+  background-color: transparent;
+  color: var(--title-color);
+  border: 1px solid var(--border-button);
+}
+
+.doctor-visits .card-footer .button-card-container button.address-btn {
+  background-color: var(--primary-color);
+  color: var(--card-bg-color);
+  border: 0;
+}
