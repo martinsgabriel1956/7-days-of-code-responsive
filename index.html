@@ -1,12 +1,350 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Medical Clinic</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/styles/root.css" />
+    <link rel="stylesheet" href="./public/styles/main.css" />
+    <title>Medical Clinic</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div class="doctor-avatar-container">
+            <img src="./assets/avatar.png" alt="Imagem da Sônia" />
+          </div>
+          <div class="doctor-details">
+            <span>Olá, Sônia</span>
+            <p>Mais 4 consultas hoje</p>
+          </div>
+        </nav>
+      </header>
+      <section class="doctor-visits">
+        <h4>Hoje</h1>
+        <div class="cards-container">
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-1.png" alt="">
+                <div class="info">
+                  <span>Luciana Dias</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>14:00 - 15:00 (1 hora)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-2.png" alt="">
+                <div class="info">
+                  <span>Larissa Santana</span>
+                  <span>
+                    <img src="./assets/icons/pin.svg" alt="Ícone de camera">
+                    Consulta no local
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>16:00 - 17:00 - (1 hora)</span>
+              <div class="button-card-container">
+                <button class="address-btn">Ver endereço</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-3.png" alt="">
+                <div class="info">
+                  <span>Marcos Correia</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>17:20 - 18:00 (40 minutos)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+        <h4>Amanhã</h4>
+
+        <div class="cards-container">
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-4.png" alt="">
+                <div class="info">
+                  <span>Clara Lemos</span>
+                  <span>
+                    <img src="./assets/icons/pin.svg" alt="Ícone de camera">
+                    Consulta no local
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>18:00 - 19:00 - (1 hora)</span>
+              <div class="button-card-container">
+                <button class="address-btn">Ver endereço</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-1.png" alt="">
+                <div class="info">
+                  <span>Luciana Dias</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>14:00 - 15:00 (1 hora)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-3.png" alt="">
+                <div class="info">
+                  <span>Marcos Correia</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>17:20 - 18:00 (40 minutos)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-2.png" alt="">
+                <div class="info">
+                  <span>Larissa Santana</span>
+                  <span>
+                    <img src="./assets/icons/pin.svg" alt="Ícone de camera">
+                    Consulta no local
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>16:00 - 17:00 - (1 hora)</span>
+              <div class="button-card-container">
+                <button class="address-btn">Ver endereço</button>
+              </div>
+            </footer>
+          </div>
+        </div>
+
+        <h4>Quarta-feira</h4>
+
+        <div class="cards-container">
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-4.png" alt="">
+                <div class="info">
+                  <span>Clara Lemos</span>
+                  <span>
+                    <img src="./assets/icons/pin.svg" alt="Ícone de camera">
+                    Consulta no local
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>18:00 - 19:00 - (1 hora)</span>
+              <div class="button-card-container">
+                <button class="address-btn">Ver endereço</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-1.png" alt="">
+                <div class="info">
+                  <span>Luciana Dias</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>14:00 - 15:00 (1 hora)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-3.png" alt="">
+                <div class="info">
+                  <span>Marcos Correia</span>
+                  <span>
+                    <img src="./assets/icons/camera.svg" alt="Ícone de camera">
+                    Consultoria remota
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>17:20 - 18:00 (40 minutos)</span>
+              <div class="button-card-container">
+                <button class="video">Ligar por vídeo</button>
+                <button class="audio">Ligar por áudio</button>
+              </div>
+            </footer>
+          </div>
+          <div class="card">
+            <header class="card-header">
+              <div class="user-details">
+                <img src="./assets/user-2.png" alt="">
+                <div class="info">
+                  <span>Larissa Santana</span>
+                  <span>
+                    <img src="./assets/icons/pin.svg" alt="Ícone de camera">
+                    Consulta no local
+                  </span>
+                </div>
+                
+              </div>
+              <button class="message-btn">
+                <img src="./assets/icons/chat1.svg" alt="Ícone de chat">
+              </button>
+            </header>
+
+            <span class="bar"></span>
+
+            <footer class="card-footer">
+              <span>16:00 - 17:00 - (1 hora)</span>
+              <div class="button-card-container">
+                <button class="address-btn">Ver endereço</button>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
