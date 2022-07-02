@@ -28,7 +28,7 @@ header > nav {
 }
 
 .doctor-visits {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .doctor-visits h4 {
@@ -173,9 +173,25 @@ header > nav {
 }
 
 .more-options {
+  bottom: 4.375rem;
   position: fixed;
-  bottom: 70px;
-  right: 16px;
+}
+
+.per-video {
+  bottom: 8.625rem;
+  position: fixed;
+
+}
+
+.in-house {
+  bottom: 13rem;
+  position: fixed;
+}
+
+.per-video,
+.more-options,
+.in-house {
+  right: 1rem;
   padding: 1.25rem;
   border: 0;
   background-color: var(--primary-color);
@@ -183,4 +199,44 @@ header > nav {
   width: 56px;
   height: 56px;
   box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.06);
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  background-color: #000;
+  opacity: 0.5;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.message-btn-container span{
+  position: fixed;
+  z-index: 2;
+  background-color: var(--card-bg-color);
+  padding: 0.125rem 0.5rem;
+  right: 5.875rem;
+  border-radius: 145.1875rem;
+  font-size: 0.75rem;
+}
+
+.message-btn-container:nth-child(6) span{
+  bottom: 14.25rem;
+}
+
+.message-btn-container:nth-child(5) span{
+  bottom: 9.875rem;
+}
+
+.message-btn {
+  font-size: 12px;
+  background-color: var(--card-bg-color);
 }
